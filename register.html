@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Blog.valorsathe.com</title>
+</head>
+<body>
+    
+    <!-- Header navigation menu -->
+    <div class="container-fluid">
+        <div class="row menu_section">
+            <div class="col-lg-12">
+                <div class="">
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                        <a href="index.html" class="navbar-brand"><img class="logo_img" src="img/valorsathe.png" alt=""></a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <div class="navbar-nav middle_menu">
+                                <a href="#" class="nav-item nav-link active">নাগরিক দুর্ভোগ</a>
+                                <a href="#" class="nav-item nav-link">সবার জন্য সাংবাদিকতা</a>
+                                <a href="#" class="nav-item nav-link">ভ্রমণের কথা</a>
+                                <a href="#" class="nav-item nav-link">চলার পথে ক্যামেরা হাতে</a>
+                            </div>
+                            <div class="navbar-nav ml-auto left_login_register">
+                                <a href="#" class="btn btn-success"  data-toggle="modal" data-target="#exampleModal"><i class="fa fa-sign-in"></i> লগইন</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header navigation menu -->
+
+    <!-- Bootstrap model for login form -->
+    <div class="container">
+        <div class="row">
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><b>লগ ইন করুন</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="custom_form_for_reg">
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1"><b>আপনার ইমেল বা ইউজার নেম দিন</b></label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="valorsathe@gmail.com">
+                                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                                </div>
+
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1"><b>পাসওয়ার্ড দিন</b></label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+
+                                <div class="txt">
+                                    <p><b class="text-danger">আপনার কি কোন একাউন্ট নাই?</b> <a href="register.html"><b>এখানে রেজিষ্টার করুন</b></a></p>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">বাদ দিন</button>
+                    <a href="profile.html"><button type="button" class="btn btn-primary">লগইন করুন</button></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap model for login form -->
+
+
+    <!-- Before register form content -->
+    <div class="container mt-3">
+        <div class="row container_padding">
+            <div class="col-md-12">
+                <div class="registaiton_content">
+                    <p>নাগরিক সাংবাদিক নন? নিবন্ধন ফরম পূরণ করুন। আপনার নিবন্ধন অনুমোদিত হলেই আপনি এই সাইটে নাগরিক সাংবাদিকতা শুরু করতে পারছেন। নিবন্ধন ফরম পূরণের আগে ও পরে অবশ্যই <a href="readmore.html"><strong>সহায়িকা পড়ে নিন।</strong></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Before register form content -->
+
+
+    <!-- Register form -->
+    <div class="container mt-1">
+        <div class="row container_padding">
+            <div class="col-md-12">
+                <div class="main_register_section">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1"><b>পুরো নাম (ইংরেজিতে)</b></label>
+                          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Md Borhan Uddin">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1"><b>ইমেল দিন</b></label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mdborhan@gmail.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1"><b>পাসওয়ার্ড</b></label>
+                          <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Password">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exampleInputPassword1"><b>পাসওয়ার্ড নিশ্চিত করুন</b></label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Again Password">
+                          </div>
+
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1"><b>আপনার সম্পর্কে (২০) শব্দ লিখুন</b></label>
+                          <textarea class="form-control" placeholder="Author Bio" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary mb-5">রেজিষ্টেশন করুন 😊</button>
+
+                          
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Register form -->
+
+
+
+
+
+    <!-- Footer Section -->
+    <section>
+        <!-- Footer logo -->
+        <div class="container-fluid">
+            <div class="row menu_section">
+                <div class="col-lg-12 text-center">
+                    <img src="img/valorsathe.png" alt="this is a foooter img">
+                </div>
+            </div>
+        </div>
+        <!-- Footer logo -->
+
+        <!-- Footer  content-->
+        <div class="container-fluid">
+            <div class="row  menu_section footer_color justify-content-md-left" id="responsivemobile">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+                    <ul id="footer_ul">
+                        <li id="footer_item">ভালোর সাথে</li>
+                        <li id="footer_item">দিনের ঘটনাপঞ্জি</li id="footer_item">
+                        <li id="footer_item">শ্রবন ও দর্শন</li id="footer_item">
+                        <li id="footer_item">সত্যতা যাচাই</li id="footer_item">
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <ul id="footer_ul">
+                        <li id="footer_item">সম্পাদক: ডা. মুহাম্মদ মাসুদ চৌধুরী</li id="footer_item">
+                        <li id="footer_item">উপ-সম্পাদকীয়</li id="footer_item">
+                        <li id="footer_item">গোপনীয়তা</li id="footer_item">
+                        <li id="footer_item">শর্তবলী</li id="footer_item">
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <ul id="footer_ul">
+                        <li id="footer_item"><i class="fa fa-facebook"></i> Facebook</li id="footer_item">
+                        <li id="footer_item"><i class="fa fa-instagram"></i> Instagram</li id="footer_item">
+                        <li id="footer_item"><i class="fa fa-twitter"></i> Twitter</li id="footer_item">
+                        <li id="footer_item"><i class="fa fa-youtube-play"></i> Youtube</li id="footer_item">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Footer  content-->
+
+        <!-- Copyright section -->
+        <div class="container-fluid">
+            <div class="row menu_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="copyright_text">© VALORSATHE.COM Theme by PYTHON SOFT LTD</p>
+                        </div>
+                        <!-- bottom footer right menu -->
+                        <div class="col-md-6 text-right">
+                            <a class="footer_item" href="#">সম্পাদকীয় </a> &nbsp; &nbsp;
+                            <a class="footer_item" href="#">উপ-সম্পাদকীয় </a> &nbsp; &nbsp;
+                            <a class="footer_item" href="#">গোপনীয়তা </a> &nbsp; &nbsp;
+                            <a class="footer_item" href="#"> শর্তবলী </a> &nbsp; &nbsp;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright section -->
+    </section>
+    <!-- Footer Section -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+
+
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px) {
+    #for_left_menu{
+        display: none;
+    }
+    .right_sidebar img{
+        height: 300px;
+        width: 100%;
+    }
+    .slider_img{
+       height: 300px; 
+       border-radius: 3px;
+    }
+    .categroy_title h2{
+        margin-top: 20px;
+    }
+    .card_section img{
+        height: 300px; 
+        border-radius: 3px;
+    }
+    #responsivemobile{
+        display: none;
+    }
+    .copyright_text{
+        text-align: center;
+    }
+    #footerMenu{
+        text-align: center;
+    }
+    .footer_item{
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    /* Category section */
+    .CategorySection_cover img{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .category_news_content p{
+        display: none;
+    }
+    .mini_cat_after_cover{
+        display: none;
+    }
+    .mini_longlist img{
+        width: 50%;
+    }
+    .mini_longlist h4{
+        font-size: 22px;
+    }
+    .mini_longlist p{
+        font-size: 16px;
+    }
+    #cat_popular{
+        display: none;
+    }
+    /* Regirster page */
+    .container_padding{
+        padding: 10px;
+    }
+    .registaiton_content p{
+        font-size: 18px;
+    }
+    /* Profile page */
+    .profile_left_sidebar img{
+        width: 40%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .profile_left_social img{
+        width: 30px;
+        height: 30px;
+        margin-top: -30px;
+    }
+    .profile_left_siderbar_content{
+        
+    }
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    #Sec_right_sidebar{
+        display: none;
+    }
+}

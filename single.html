@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Blog.valorsathe.com</title>
+</head>
+<body>
+    
+    <!-- Header navigation menu -->
+    <div class="container-fluid">
+        <div class="row menu_section">
+            <div class="col-lg-12">
+                <div class="">
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                        <a href="index.html" class="navbar-brand"><img class="logo_img" src="img/valorsathe.png" alt=""></a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <div class="navbar-nav middle_menu">
+                                <a href="category.html" class="nav-item nav-link active">নাগরিক দুর্ভোগ</a>
+                                <a href="category.html" class="nav-item nav-link">সবার জন্য সাংবাদিকতা</a>
+                                <a href="category.html" class="nav-item nav-link">ভ্রমণের কথা</a>
+                                <a href="category.html" class="nav-item nav-link">চলার পথে ক্যামেরা হাতে</a>
+                            </div>
+                            <div class="navbar-nav ml-auto left_login_register">
+                                <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary btn-sm"><b> <i class="fa fa-paper-plane"></i> লিখা পাঠান</b></a> &nbsp;
+                                <a href="#" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal"><i class="fa fa-sign-in"></i> <b>লগ ইন</b></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header navigation menu -->
+
+    <!-- Bootstrap model for login form -->
+    <div class="container">
+        <div class="row">
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><b>লগ ইন করুন</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="custom_form_for_reg">
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1"><b>আপনার ইমেল বা ইউজার নেম দিন</b></label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="valorsathe@gmail.com">
+                                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                                </div>
+
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1"><b>পাসওয়ার্ড দিন</b></label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+
+                                <div class="txt">
+                                    <p><b class="text-danger">আপনার কি কোন একাউন্ট নাই?</b> <a href="register.html"><b>এখানে রেজিষ্টার করুন</b></a></p>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">বাদ দিন</button>
+                    <a href="profile.html"><button type="button" class="btn btn-primary">লগইন করুন</button></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap model for login form -->
+
+    <!-- Single main section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-12 sticky-top">
+                <div class="left_sidebar sticky-top">
+                    <img src="img/111.png" alt="">
+                        <h5><b><i class="fa fa-pencil"></i> লেখক </b><strong><a href="#">ওয়াসিম খান</a></strong></h5>
+                        <p>দক্ষিণ কোরিয়ার দৈনিক ডং-এ ইলবো এক প্রতিবেদনে বলছে, গণ-শৌচাগারে যাওয়ার কারণে করোনাভাইরাস বিস্তারের আশঙ্কায় ওই ব্যক্তিকে গ্রেফতার।
+                        </p>
+                    <div class="left_social">
+                        <ul>
+                            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Cover section -->
+            <div class="col-lg-9 col-md-9 col-sm-9">
+                <div class="right_cover_section">
+                    <div class="cover_content">
+                        <h1>উ. কোরিয়ায় সন্দেহভাজন করোনা আক্রান্তকে গুলি করে হত্যা </h1>
+                        <img src="img/news1.jpg" alt="">
+                        <div class="cover_social">
+                            <ul>
+                                <li><h3 style="margin-top: 21px; font-size: 20px;"><strong>শেয়ার করুন</strong></h3></li> &nbsp;&nbsp;
+                                <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="cover_paragraph">
+                            <p>কোয়ারেন্টাইন পয়েন্ট থেকে বেরিয়ে গণ-শৌচাগারে যাওয়ায় উত্তর কোরিয়ায় এক ব্যক্তিকে গুলি করে হত্যা করা হয়েছে। দক্ষিণ কোরিয়ার গণমাধ্যম বলছে, গণ-শৌচাগার ব্যবহার করায় করোনা বিস্তারের ঝুঁকি বিবেচনা করে তার এই সর্বোচ্চ শাস্তি কার্যকর করেছে উত্তরের প্রশাসন।</p>
+                            <p>দক্ষিণ কোরিয়ার দৈনিক ডং-এ ইলবো এক প্রতিবেদনে বলছে, গণ-শৌচাগারে যাওয়ার কারণে করোনাভাইরাস বিস্তারের আশঙ্কায় ওই ব্যক্তিকে গ্রেফতারের পর তাৎক্ষণিকভাবে গুলি করে হত্যা করা হয়।</p>
+
+                            <p>স্থানীয় সূত্রের বরাত দিয়ে দক্ষিণ কোরিয়ার এই দৈনিক বলছে, সম্প্রতি চীন ভ্রমণ করে দেশে ফেরার পর ওই ব্যক্তিকে আইসোলেশনে রাখা হয়েছিল। চীনের উহান থেকে ছড়িয়ে পড়া এই ভাইরাসের প্রাদুর্ভাব মোকাবেলায় পূর্ব-সতর্কতা হিসেবে উত্তর কোরিয়ায় সামরিক আইন জারি করেছেন দেশটির প্রেসিডেন্ট কিম জং উন।</p>
+                            <p>কোয়ারেন্টাইন পয়েন্ট থেকে বেরিয়ে গণ-শৌচাগারে যাওয়ায় উত্তর কোরিয়ায় এক ব্যক্তিকে গুলি করে হত্যা করা হয়েছে। দক্ষিণ কোরিয়ার গণমাধ্যম বলছে, গণ-শৌচাগার ব্যবহার করায় করোনা বিস্তারের ঝুঁকি বিবেচনা করে তার এই সর্বোচ্চ শাস্তি কার্যকর করেছে উত্তরের প্রশাসন।</p>
+                            <p>দক্ষিণ কোরিয়ার দৈনিক ডং-এ ইলবো এক প্রতিবেদনে বলছে, গণ-শৌচাগারে যাওয়ার কারণে করোনাভাইরাস বিস্তারের আশঙ্কায় ওই ব্যক্তিকে গ্রেফতারের পর তাৎক্ষণিকভাবে গুলি করে হত্যা করা হয়।</p>
+    
+                            <p>স্থানীয় সূত্রের বরাত দিয়ে দক্ষিণ কোরিয়ার এই দৈনিক বলছে, সম্প্রতি চীন ভ্রমণ করে দেশে ফেরার পর ওই ব্যক্তিকে আইসোলেশনে রাখা হয়েছিল। চীনের উহান থেকে ছড়িয়ে পড়া এই ভাইরাসের প্রাদুর্ভাব মোকাবেলায় পূর্ব-সতর্কতা হিসেবে উত্তর কোরিয়ায় সামরিক আইন জারি করেছেন দেশটির প্রেসিডেন্ট কিম জং উন।</p>
+                            <p>কোয়ারেন্টাইন পয়েন্ট থেকে বেরিয়ে গণ-শৌচাগারে যাওয়ায় উত্তর কোরিয়ায় এক ব্যক্তিকে গুলি করে হত্যা করা হয়েছে। দক্ষিণ কোরিয়ার গণমাধ্যম বলছে, গণ-শৌচাগার ব্যবহার করায় করোনা বিস্তারের ঝুঁকি বিবেচনা করে তার এই সর্বোচ্চ শাস্তি কার্যকর করেছে উত্তরের প্রশাসন।</p>
+                            <p>দক্ষিণ কোরিয়ার দৈনিক ডং-এ ইলবো এক প্রতিবেদনে বলছে, গণ-শৌচাগারে যাওয়ার কারণে করোনাভাইরাস বিস্তারের আশঙ্কায় ওই ব্যক্তিকে গ্রেফতারের পর তাৎক্ষণিকভাবে গুলি করে হত্যা করা হয়।</p>
+        
+                            <p>স্থানীয় সূত্রের বরাত দিয়ে দক্ষিণ কোরিয়ার এই দৈনিক বলছে, সম্প্রতি চীন ভ্রমণ করে দেশে ফেরার পর ওই ব্যক্তিকে আইসোলেশনে রাখা হয়েছিল। চীনের উহান থেকে ছড়িয়ে পড়া এই ভাইরাসের প্রাদুর্ভাব মোকাবেলায় পূর্ব-সতর্কতা হিসেবে উত্তর কোরিয়ায় সামরিক আইন জারি করেছেন দেশটির প্রেসিডেন্ট কিম জং উন।</p>
+                            <p>কোয়ারেন্টাইন পয়েন্ট থেকে বেরিয়ে গণ-শৌচাগারে যাওয়ায় উত্তর কোরিয়ায় এক ব্যক্তিকে গুলি করে হত্যা করা হয়েছে। দক্ষিণ কোরিয়ার গণমাধ্যম বলছে, গণ-শৌচাগার ব্যবহার করায় করোনা বিস্তারের ঝুঁকি বিবেচনা করে তার এই সর্বোচ্চ শাস্তি কার্যকর করেছে উত্তরের প্রশাসন।</p>
+                             <p>দক্ষিণ কোরিয়ার দৈনিক ডং-এ ইলবো এক প্রতিবেদনে বলছে, গণ-শৌচাগারে যাওয়ার কারণে করোনাভাইরাস বিস্তারের আশঙ্কায় ওই ব্যক্তিকে গ্রেফতারের পর তাৎক্ষণিকভাবে গুলি করে হত্যা করা হয়।</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                <!-- Related title -->
+                <div class="contanier">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 style="margin-left: 15px;"><strong>এই লেখকের আরো লিখা পড়ুন</strong></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Related title -->
+
+                <!-- Related News -->
+                <div class="container">
+                    <div class="row related_news_row">
+                        <div class="col-md-4">
+                            <div class="related_news_single">
+                                <a href="#"><img src="img/22.jpg" alt=""></a>
+                                <h4><a href="#">উ. কোরিয়ায় সন্দেহভাজন করোনা আক্রান্তকে গুলি করে হত্যা</a></h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="related_news_single">
+                                <a href="#"><img src="img/22.jpg" alt=""></a>
+                                <h4><a href="#">উ. কোরিয়ায় সন্দেহভাজন করোনা আক্রান্তকে গুলি করে হত্যা</a></h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="related_news_single">
+                                <a href="#"><img src="img/22.jpg" alt=""></a>
+                                <h4><a href="#">উ. কোরিয়ায় সন্দেহভাজন করোনা আক্রান্তকে গুলি করে হত্যা</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Related News -->
+
+            </div>
+            <!-- Full Cover section -->
+
+        </div>
+    </div>
+    <!-- Single main section -->
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer section-->
+        <!-- Footer logo -->
+        <div class="container-fluid">
+            <div class="row menu_section">
+                <div class="col-lg-12 text-center">
+                    <img src="img/valorsathe.png" alt="this is a foooter img">
+                </div>
+            </div>
+        </div>
+        <!-- Footer logo -->
+
+        <!-- Footer  content-->
+        <div class="container-fluid">
+            <div class="row  menu_section footer_color justify-content-md-left" id="responsivemobile">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+                    <ul id="footer_ul">
+                        <li id="footer_item">ভালোর সাথে</li>
+                        <li id="footer_item">দিনের ঘটনাপঞ্জি</li id="footer_item">
+                        <li id="footer_item">শ্রবন ও দর্শন</li id="footer_item">
+                        <li id="footer_item">সত্যতা যাচাই</li id="footer_item">
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <ul id="footer_ul">
+                        <li id="footer_item">সম্পাদক: ডা. মুহাম্মদ মাসুদ চৌধুরী</li id="footer_item">
+                        <li id="footer_item">উপ-সম্পাদকীয়</li id="footer_item">
+                        <li id="footer_item">গোপনীয়তা</li id="footer_item">
+                        <li id="footer_item">শর্তবলী</li id="footer_item">
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <ul id="footer_ul">
+                        <li id="footer_item"><i class="fa fa-facebook"></i> Facebook</li id="footer_item">
+                        <li id="footer_item"><i class="fa fa-instagram"></i> Instagram</li id="footer_item">
+                        <li id="footer_item"><i class="fa fa-twitter"></i> Twitter</li id="footer_item">
+                        <li id="footer_item"><i class="fa fa-youtube-play"></i> Youtube</li id="footer_item">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Footer  content-->
+
+        <!-- Copyright section -->
+        <div class="container-fluid">
+            <div class="row menu_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="copyright_text">© VALORSATHE.COM Theme by PYTHON SOFT LTD</p>
+                        </div>
+                        <!-- bottom footer right menu -->
+                        <div class="col-md-6 text-right">
+                            <a class="footer_item" href="#">সম্পাদকীয় </a> &nbsp; &nbsp;
+                            <a class="footer_item" href="#">উপ-সম্পাদকীয় </a> &nbsp; &nbsp;
+                            <a class="footer_item" href="#">গোপনীয়তা </a> &nbsp; &nbsp;
+                            <a class="footer_item" href="#"> শর্তবলী </a> &nbsp; &nbsp;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright section -->
+    <!-- Footer section-->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
